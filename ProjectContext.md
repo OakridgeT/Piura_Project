@@ -109,28 +109,30 @@ Aun no se cuenta con un stock de repuestos definidos, esta aspecto  está pendie
 
 ## 3.7 Customer Communication
 - Comunicación empresa - técnicos: actualmente se realiza por medio de telefonos celulares, los tecnicos reciben las Ordenes de mantenimiento en sus celulares a travez de la aplicacion OficceTrack , en la cual, ademas de revisar el detalle de las ordenes de trabajo, realizan tambien el registro de la evidencia fotografica de las tareas
-- Comunicacion empresa - clientes: los clientes se comunican por medio telefonos celulares y correos electronicos
+- Comunicación empresa - clientes: los clientes se comunican por medio telefonos celulares y correos electrónicos para comunicar alguna emergencia o consulta, la empresa comunica a los clientes via telefónica con anticipación los mantenimientos programados
 
 ---
 
 # 4. Current Business Challenges
 
 ## 4.1 Existing Problems
-La gestión de los procesos se apoya mas en la personas que en los sistemas de trabajo, es decir, el calculo de indicadores, seguimiento de trabajos, asignacion de ordenes de menteniminto, control de gastos y cotizaciones se realiza de manera manual.
-La información se maneja a travez de hojas de excell y del OfficeTrack, no se cuenta con un modelo que centralize la información.
+La gestión de los procesos se apoya mas en la personas que en los sistemas de trabajo, es decir, el calculo de indicadores, seguimiento de trabajos, asignacion de ordenes de manteniminto, control de gastos y cotizaciones se realiza de manera manual.
+La información se maneja usndo de hojas de excell y del OfficeTrack, no se cuenta con un modelo que centralize la información.
 
 ## 4.2 Operational Limitations
-Si bien el Uso de un software como el OfficeTrack automatiza prte de l operacion, este softfare no tiene la capacidad de gestionr todos los spectos de informacion que necesitan..
+Si bien el Uso de un software como el OfficeTrack automatiza prte de la operación, este software no tiene la capacidad de gestionr todos los aspectos de informacion que necesitan para una gestion eficiente de recursos.
 
 ## 4.3 Information Management
 La informacion se administra en hojas excell, reportes generados y almacenados por el OfficeTrack y correos electronicos.
 
 ## 4.4 Bottlenecks
-Cuellos de botella operativos y administrativos.
+- Cuello de botella operativo: Los tecnicos no llenan correctamente los informes de trabajos ejecutados, se requiere tiempo extra para corregirlos y obtener informacion validada.
+- Cuello de botella  administrativo: los procesos de control, programación de tareas y calculo de indicadores son engorrosos y toman mucho tiempo en realizarse.
 
 ## 4.5 Risks
-Riesgos operativos, comerciales y tecnológicos.
-
+- Riesgos operativos: Cometer errores durante el mantenimiento por falta de control en la calidad y ejecucion de los trabajos.
+- Riesgos comerciales: Pérdida de clientes por reclamos en el servicio.
+- Riesgos tecnológicos: aun no identificado.
 ---
 
 # 5. Stakeholders and Users
@@ -144,7 +146,7 @@ Personas o entidades interesadas en el sistema.
 - Supervisor técnico.
 - Técnico de mantenimiento.
 - Personal administrativo.
-- Cliente.
+- Clientes.
 
 ## 5.3 Permissions and Responsibilities
 Responsabilidades y límites de cada rol.
@@ -154,17 +156,29 @@ Responsabilidades y límites de cada rol.
 # 6. Project Scope
 
 ## 6.1 In Scope
-Funcionalidades incluidas en el proyecto.
+- Clientes y contratos: fichas de clientes, edificios, contratos de mantenimiento y renovaciones.
+- Gestión de activos (ascensores): ficha técnica por unidad, historial de intervenciones, estado y parámetros (capacidad, paradas, velocidad).
+- Mantenimiento preventivo: planes por periodicidad, calendario con avisos y generación automática de órdenes.
+- Mantenimiento correctivo / emergencias: registro de incidencias, cotización de reparaciones, aprobación por el cliente y seguimiento 24/7.
+- Órdenes de trabajo (OT): asignación a técnicos, estados, prioridades, checklist de tareas, fotos y firma digital en app móvil.
+- Inventario y repuestos: trazabilidad de piezas desde almacén hasta el ascensor, control de stock y consumo.
+- Facturación y finanzas: generación automática de facturas por contrato y por intervención, cartera de pagos y contabilidad básica.
+- Certificaciones y cumplimiento: certificados anuales por ascensor con avisos de vencimiento.
+- Reportes e indicadores: disponibilidad, MTBF, tiempo de respuesta, cumplimiento del plan. 
 
 ## 6.2 Out of Scope
-Funcionalidades explícitamente excluidas.
+Gestión de recursos humanos.
+Portal de clientes para autodiagnóstico.
 
 ## 6.3 Future Scope
-Funcionalidades potenciales para futuras versiones.
+- Incorporar un chatbot para atencion al cliente.
+- Incorporar un modelo de inteligencia artificial para el analisis de datos.
+- Integración con sistemas IoT predictivos 
 
 ## 6.4 Project Constraints
-Restricciones económicas, tecnológicas,
-operativas y de tiempo.
+- Se asume disponibilidad de la normativa local aplicable (p. ej. intervalos de revisión) para configurar los planes.
+- Presupuesto y plazo fijos; los cambios de alcance se gestionan por control de cambios.
+- La app móvil debe funcionar en modo offline para zonas sin cobertura.
 
 ---
 
@@ -174,16 +188,25 @@ operativas y de tiempo.
 Módulos principales del software.
 
 ## 7.2 Business Requirements
-Necesidades de negocio que debe satisfacer.
+- R5: Crear planes de mantenimiento preventivo.
+- R6: Crear un registro de equipos (ascensores, plataformas, etc) con detalle tecnico con una estructura enfocada en su mantenimiento ( sitemas, sub sistemas, componentes, etc).
+- R7: Crear y mantener un historial de mantenimiento.
+- R8: Registrar las emergencias reportadas por los clientes y su atencion.
+- R9: Registar la recepcion y conformidad de los trabajos por parte de los clientes.
 
 ## 7.3 User Requirements
-Necesidades de los usuarios.
+- R1: Enviar ordenes de mantenimiento a los tecnicos de mantenimiento de la empresa de manera remota atravez de un dispositivo movil.
+- R2: Recoger evidencia de la ejecución de los trabajos realizados de los tecnicos en los equipos (ascensores, plataformas, etc).
+- R3: Simplificar la elaboracion de informes de trabajos de mantenimiento basado en la evidencia de los tecnicos de mantenimiento.
+- R4: Controlar el momento de ejecucion y la duracion de las ordenes de mantenimiento.
 
 ## 7.4 General Workflows
 Flujos operativos generales.
 
 ## 7.5 Reporting and Analytics
-Reportes e indicadores requeridos.
+- R10: Asignar un costo a cada orden de mantenimiento
+- R11: Desarrollar KPIs relacionados al area de operaciones.
+- R12: Desarrollar KPIs relacionados al area de servicio al cliente.
 
 ---
 
@@ -203,27 +226,29 @@ Reportes e indicadores requeridos.
 # 9. Technical Environment
 
 ## 9.1 Deployment Model
-Servidor propio, nube o infraestructura híbrida.
+Infraestructura híbrida combinando servidor propio y dtos en servidor en la nube.
 
 ## 9.2 Infrastructure Constraints
-Infraestructura disponible y restricciones.
+No hay restricciones de infraestructura.
 
 ## 9.3 Devices
-Dispositivos utilizados por los usuarios.
+Actualmente se usan telefonos celulares por parte de los tecnicos en campo para la recepcion de las ordenes de mantenimiento y recoger la evidencia y observaciones de los trabajos de mantenimientos.
+El personal administrativo tiene acceso a computadoras portatiles
 
 ## 9.4 Connectivity
 LAN, VPN, Internet y conectividad de campo.
 
 ## 9.5 Existing Systems
-Sistemas actuales e integraciones requeridas.
+Actualmente se usan siguientes softwares:
+Office de Microsoft 
+OfficeTrack para la gestión de las ordenes de mantenimiento y el envío de información a los técnicos en campo
 
 ---
 
 # 10. Data and Information
 
 ## 10.1 Business Entities
-Clientes, edificios, ascensores, contratos,
-técnicos, órdenes de trabajo, repuestos, etc.
+Clientes, edificios, ascensores, contratos,técnicos, órdenes de trabajo, repuestos.
 
 ## 10.2 Data Ownership
 Quién administra y controla la información.
