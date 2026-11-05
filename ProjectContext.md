@@ -226,13 +226,13 @@ Flujos operativos generales.
 # 9. Technical Environment
 
 ## 9.1 Deployment Model
-Infraestructura híbrida combinando servidor propio y dtos en servidor en la nube.
+Infraestructura híbrida combinando servidor propio y datos en servidor en la nube.
 
 ## 9.2 Infrastructure Constraints
 No hay restricciones de infraestructura.
 
 ## 9.3 Devices
-Actualmente se usan telefonos celulares por parte de los tecnicos en campo para la recepcion de las ordenes de mantenimiento y recoger la evidencia y observaciones de los trabajos de mantenimientos.
+Actualmente se usan telefonos celulares por parte de los tecnicos en campo para la recepcion de las ordenes de mantenimiento y recoger la evidencia y observaciones de los trabajos de mantenimiento.
 El personal administrativo tiene acceso a computadoras portatiles
 
 ## 9.4 Connectivity
@@ -240,7 +240,7 @@ LAN, VPN, Internet y conectividad de campo.
 
 ## 9.5 Existing Systems
 Actualmente se usan siguientes softwares:
-Office de Microsoft 
+Office de Microsoft para la creacion de documentos y hojas de calculo.
 OfficeTrack para la gestión de las ordenes de mantenimiento y el envío de información a los técnicos en campo
 
 ---
