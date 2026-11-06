@@ -12,201 +12,316 @@ Last Updated: 2026-11-04
 # 1. Project Overview
 
 ## 1.1 Project Purpose
-Crear un sistema de software integral diseñado para gestionar y automatizar las operaciones diarias de una empresa de mantenimiento de ascensores de edificios coorporativos  en una única plataforma centralizada.
+Develop a software system to manage the daily operations of a company that provides elevator maintenance for corporate buildings, using a single centralized platform that integrates a desktop application and a mobile app to maintain communication channels between office staff and field technical personnel.
 
 ## 1.2 Business Objective
-Expandir su cartera de clientes en base al concepto de mantenimiento preventivo y predictivo evitando paradas  y evitando reparaciones correctivas costosas para los clientes.
+The primary business objective is to improve the operational efficiency, traceability, and service quality of the elevator maintenance company through a centralized digital platform.
+
+The system aims to:
+
+- Centralize customer, building, elevator, and contract information.
+- Improve preventive maintenance scheduling and compliance.
+- Reduce administrative workload associated with work orders.
+- Improve technician assignment and field service coordination.
+- Provide real-time visibility into service execution status.
+- Maintain a complete service history for each elevator.
+- Improve communication between field technicians,
+  supervisors, and administrative personnel.
+- Reduce information loss caused by paper-based processes
+  and disconnected communication channels.
+
+The platform should support business growth without requiring a proportional increase in administrative personnel.
 
 ## 1.3 Project Vision
-Es sistema debe ser capaz de atender los requerimientos del area operativa, comercial y de servicio al cliente.
-El sistema debe integrar:
-- Información de los clientes
-- Planes de mantenimiento y control de ejecución de trabajos realizado en los ascensores y equipos
-- Sistema de costeo de actividades
-- Canales de atención al cliente.
-- Cotizacion de trabajos no programados.
+The system must be capable of meeting the requirements of the operational, commercial, and customer service areas.
+The system must integrate:
+- Customer information
+- Maintenance plans and monitoring of work performed on elevators and equipment
+- Activity-based costing system
+- Customer service channels
+- Quotations for unscheduled work
 
 ## 1.4 Expected Benefits
-- Optimización de operaciones.
-- Trazabilidad del mantenimiento.
-- Reducción de tiempos administrativos.
-- Control de técnicos y órdenes de trabajo.
-- Mejora del servicio al cliente.
+- Optimization of operations.
+- Maintenance traceability.
+- Reduction of administrative time.
+- Oversight of technicians and work orders.
+- Improvement of customer service.
 
 ---
 
 # 2. Company Profile
 
 ## 2.1 Company Description
-La empresa ofrece el servicio de mantenimiento de ascensores y equipos anexos, así como los servicios relacionados o que se puedan integrar a este servicio. Cuenta con personal administrativo y personal de mantenimiento de campo.
+The company provides maintenance services for elevators and related equipment, as well as services that are either associated with or can be integrated into this offering. It employs both administrative staff and field maintenance personnel.
 
 ## 2.2 Business Model
-Cómo genera ingresos:
-- Contratos de mantenimiento.
-- Servicios correctivos.
-- Reparaciones.
-- Instalaciones o modernizaciones.
-- Servicios extraordinarios.
+How it generates revenue:
+- Maintenance contracts.
+- Corrective services.
+- Repairs.
+- Installations or modernizations.
+- Extraordinary services.
 
 ## 2.3 Customer Profile
-Características de los clientes:
-- Empresas corporativas.
-- Administradores de edificios.
-- Propietarios o gestores de inmuebles.
+Client characteristics:
+- Corporate entities.
+- Building managers.
+- Property owners or managers.
 
 ## 2.4 Operational Environment
-Las operaciones de mantenimiento de los ascensores se realizan en los edificios de los clientes. Los ascensores son detenidos durante los trabajos de mantenimiento, los cuales deben ser breves para no afectar a los ususarios.
-Los tecnicos reciben las ordenes de trabajo y acuden a los edificios de acuerdo a la programacion de los trabajos.
+Elevator maintenance operations are carried out in clients' buildings. Elevators are taken out of service during maintenance work, which must be kept brief so as not to inconvenience users.
+Technicians receive work orders and travel to the buildings according to the maintenance schedule.
 
 ## 2.5 Organizational Structure
-Existen las siguientes areas:
-- Area comercial: dedicada a realizar los contratos con los clientes y ampliar la cartera de clientes.
-- Area de servicios: dedicada a gestionar el servicio de mantenimiento a los clientes a cargo del personal tecnico y la programación de los mantenimiento.
-- Area contable: dedicada a registrar los gastos y los pagos de la operación.
+The following areas exist:
+- Commercial area: dedicated to entering into contracts with clients and expanding the client base.
+- Services area: dedicated to managing maintenance services for clients, handled by technical staff, and scheduling maintenance tasks.
+- Accounting area: dedicated to recording operational expenses and payments.
 
 ---
 
 # 3. Business Operations
 
 ## 3.1 Service Lifecycle
-Descripción del ciclo de prestación del servicio.
+The company provides elevator maintenance services through preventive maintenance contracts, corrective maintenance requests, emergency services, and technical inspections.
+
+The general service lifecycle consists of:
+
+1. Service requirement identification.
+2. Service classification.
+3. Work order creation.
+4. Technician assignment.
+5. Service scheduling and client communication.
+6. Field execution.
+7. Activity and findings recording include client validation / reception.
+8. Service completion or follow-up scheduling.
+9. Technical report submission.
+10. Supervisor review when applicable.
+11. Work order closure.
+12. Customer notification and service history update.
+
+A service may remain open when:
+- The maintenance activity is incomplete.
+- Spare parts are required.
+- Additional technical work is identified.
+- Supervisor approval is pending.
+
+The service lifecycle must preserve traceability from service initiation to final closure and client validation / reception.
 
 ## 3.2 Maintenance Operations
-- Mantenimiento preventivo.
-- Mantenimiento correctivo.
-- Atención de emergencias.
-- Inspecciones técnicas.
-- Reparaciones.
+- Preventive maintenance.
+- Corrective maintenance.
+- Emergency response.
+- Technical inspections.
+- Repairs.
 
 ## 3.3 Contract Management
-Gestión de contratos, cobertura, vigencia y condiciones.
+Contract management, coverage, term, and conditions.
 
 ## 3.4 Work Order Management
-Se tiene creado un plan de mantenimiento anual para cada ascensor.
-Los planes de mantenimiento anuales de sub dividen en actividades mensuales.
-Se programan visitas mensuales de los tecnicos a los edificios en las cuales se ejecutan las actividades programadas mensualmente.
-El programador de mantenimiento asigna las ordenes de mantenimiento a los tecnicos usando el sistema / aplicativo OficceTrack 
+An annual maintenance plan has been established for each elevator.
+These annual maintenance plans are subdivided into monthly activities.
+Monthly technician visits to the buildings are scheduled, during which the planned monthly activities are carried out.
+The maintenance scheduler assigns maintenance work orders to the technicians using the OfficeTrack system/application.
 
 > [!NOTE]
-> OfficeTrack es una plataforma de gestión de fuerza de trabajo móvil desarrollada por OfficeCore que optimiza las operaciones de personal en campo mediante una combinación de aplicación web y apps móviles.  Su función principal es automatizar, gestionar y controlar a los empleados que se desplazan durante su jornada laboral, permitiendo el flujo de información digital entre la base de operaciones y los operarios. 
-> Servicios clave y funcionalidades:
-> Geolocalización y Ruteo: Monitoreo en tiempo real de empleados y vehículos mediante GPS, junto con la optimización de rutas para mejorar la eficiencia operativa.
-> Gestión de Tareas: Asignación y seguimiento de órdenes de trabajo, formularios digitales personalizados y control de asistencia o presentismo.
-> Visibilidad y Reportes: Obtención de informes en tiempo real, gestión de inventarios y registro de evidencias (fotos, firmas, códigos de barras) para auditorías y certificaciones.
-> Integración: Funciona como SaaS en la nube, compatible con sistemas internos como ERP, CRM o TMS, y opera tanto en línea como offline en zonas sin conexión.
+> OfficeTrack is a mobile workforce management platform developed by OfficeCore that optimizes field operations through a combination of a web application and mobile apps. Its primary function is to automate, manage, and oversee employees who travel as part of their workday, enabling a digital flow of information between the operations center and field personnel.
+> Key services and features:
+> Geolocation and Routing: Real-time monitoring of employees and vehicles via GPS, combined with route optimization to improve operational efficiency.
+> Task Management: Assignment and tracking of work orders, custom digital forms, and attendance or time-tracking.
+> Visibility and Reporting: Real-time reporting, inventory management, and the collection of evidence (photos, signatures, barcodes) for audits and certifications.
+> Integration: Operates as a cloud-based SaaS, compatible with internal systems such as ERP, CRM, or TMS, and functions both online and offline in areas without connectivity.
 
 ## 3.5 Field Operations
-Recepción de Orden de trabajo a travez del aplicativo OfficeTrack.
-El técnico se presenta ante el encargado del edificio y obtiene su autorizacion coordinada para iniciar los trabajos deteniendo la operacion del ascensor.
-El técnico realiza su procedimiento de Analisis de trabajo seguro (ATS) que consiste en el llenado del formulario registrado en el aplicativo OficceTrack.
-Ejecución de Orden de trabajo y toma de evidencia fotografica y comentario registrado en el aplicativo OfficeTrack.
-El tecnico se presenta ante el encargado del edificio y le comunica el fin de los trabajos, se restituye la operacion del ascensor y se obtiene la conformidad del encargado del edificio.
-El tecnico cierra la orden de trabajo en el sistema revisando agregando comentarios y observaciones segun requiera.
+Receipt of a work order via the OfficeTrack application.
+The technician reports to the building manager and obtains authorization to begin work, which involves halting the elevator's operation.
+The technician carries out a Job Safety Analysis (JSA) by completing the form provided within the OfficeTrack application.
+The work order is executed, with photographic evidence and comments recorded in the OfficeTrack application.
+The technician informs the building manager that the work is complete; the elevator is returned to service, and the building manager provides confirmation that the work is satisfactory.
+The technician closes the work order in the system, adding any necessary comments or observations.
 
 
 ## 3.6 Inventory and Spare Parts
-Aun no se cuenta con un stock de repuestos definidos, esta aspecto  está pendiente de ser desarrollado
+A stock of spare parts has not yet been defined; this aspect remains to be developed.
 
 ## 3.7 Customer Communication
-- Comunicación empresa - técnicos: actualmente se realiza por medio de telefonos celulares, los tecnicos reciben las Ordenes de mantenimiento en sus celulares a travez de la aplicacion OficceTrack , en la cual, ademas de revisar el detalle de las ordenes de trabajo, realizan tambien el registro de la evidencia fotografica de las tareas
-- Comunicación empresa - clientes: los clientes se comunican por medio telefonos celulares y correos electrónicos para comunicar alguna emergencia o consulta, la empresa comunica a los clientes via telefónica con anticipación los mantenimientos programados
+- Communication between the company and technicians: This currently takes place via mobile phones. Technicians receive maintenance orders on their phones through the OfficeTrack application, which allows them to review the details of work orders and also document completed tasks by uploading photographic evidence.
+- Communication between the company and clients: Clients use mobile phones and email to report emergencies or make inquiries. The company, in turn, notifies clients in advance—via telephone—about any scheduled maintenance.
 
 ---
 
 # 4. Current Business Challenges
 
 ## 4.1 Existing Problems
-La gestión de los procesos se apoya mas en la personas que en los sistemas de trabajo, es decir, el calculo de indicadores, seguimiento de trabajos, asignacion de ordenes de manteniminto, control de gastos y cotizaciones se realiza de manera manual.
-La información se maneja usndo de hojas de excell y del OfficeTrack, no se cuenta con un modelo que centralize la información.
+Process management relies more on people than on work systems; specifically, the calculation of performance indicators, task tracking, assignment of maintenance work orders, and the control of expenses and price quotes are all handled manually.
+Information is managed using Excel spreadsheets and OfficeTrack; there is no unified model in place to centralize this information.
 
 ## 4.2 Operational Limitations
-Si bien el Uso de un software como el OfficeTrack automatiza prte de la operación, este software no tiene la capacidad de gestionr todos los aspectos de informacion que necesitan para una gestion eficiente de recursos.
+While using software such as OfficeTrack automates part of the operation, this software lacks the capacity to manage all the aspects of information required for efficient resource management.
 
 ## 4.3 Information Management
-La informacion se administra en hojas excell, reportes generados y almacenados por el OfficeTrack y correos electronicos.
+Information is managed via Excel spreadsheets, reports generated and stored by OfficeTrack, and emails.
 
 ## 4.4 Bottlenecks
-- Cuello de botella operativo: Los tecnicos no llenan correctamente los informes de trabajos ejecutados, se requiere tiempo extra para corregirlos y obtener informacion validada.
-- Cuello de botella  administrativo: los procesos de control, programación de tareas y calculo de indicadores son engorrosos y toman mucho tiempo en realizarse.
+- Operational bottleneck: Technicians do not correctly complete reports on work performed; extra time is required to correct them and obtain validated information.
+- Administrative bottleneck: Processes for control, task scheduling, and the calculation of performance indicators are cumbersome and time-consuming to carry out.
 
 ## 4.5 Risks
-- Riesgos operativos: Cometer errores durante el mantenimiento por falta de control en la calidad y ejecucion de los trabajos.
-- Riesgos comerciales: Pérdida de clientes por reclamos en el servicio.
-- Riesgos tecnológicos: aun no identificado.
+- Operational risks: Making errors during maintenance due to a lack of control over quality and the execution of the work.
+- Commercial risks: Loss of clients due to service-related complaints.
+- Technological risks: Not yet identified.
 ---
 
 # 5. Stakeholders and Users
 
 ## 5.1 Stakeholders
-Personas o entidades interesadas en el sistema.
+Individuals or entities with an interest in the system.
 
 ## 5.2 User Roles
-- Administrador.
-- Gerente de operaciones.
-- Supervisor técnico.
-- Técnico de mantenimiento.
-- Personal administrativo.
-- Clientes.
+- Administrator.
+- Operations manager.
+- Technical supervisor.
+- Maintenance technician.
+- Administrative staff.
+- Clients.
 
 ## 5.3 Permissions and Responsibilities
-Responsabilidades y límites de cada rol.
+Responsibilities and limits of each role.
 
 ---
 
 # 6. Project Scope
 
 ## 6.1 In Scope
-- Clientes y contratos: fichas de clientes, edificios, contratos de mantenimiento y renovaciones.
-- Gestión de activos (ascensores): ficha técnica por unidad, historial de intervenciones, estado y parámetros (capacidad, paradas, velocidad).
-- Mantenimiento preventivo: planes por periodicidad, calendario con avisos y generación automática de órdenes.
-- Mantenimiento correctivo / emergencias: registro de incidencias, cotización de reparaciones, aprobación por el cliente y seguimiento 24/7.
-- Órdenes de trabajo (OT): asignación a técnicos, estados, prioridades, checklist de tareas, fotos y firma digital en app móvil.
-- Inventario y repuestos: trazabilidad de piezas desde almacén hasta el ascensor, control de stock y consumo.
-- Facturación y finanzas: generación automática de facturas por contrato y por intervención, cartera de pagos y contabilidad básica.
-- Certificaciones y cumplimiento: certificados anuales por ascensor con avisos de vencimiento.
-- Reportes e indicadores: disponibilidad, MTBF, tiempo de respuesta, cumplimiento del plan. 
+- Clients and contracts: client profiles, building information, maintenance contracts, and renewals.
+- Asset management (elevators): technical specifications for each unit, service history, current status, and operational parameters (capacity, number of stops, speed).
+- Preventive maintenance: recurring maintenance schedules, a calendar with automated alerts, and the automatic generation of work orders.
+- Corrective maintenance / emergencies: incident logging, repair quotes, client approval, and 24/7 tracking.
+- Work orders (WOs): technician assignment, status tracking, priority levels, task checklists, photo documentation, and digital signatures via a mobile app.
+- Inventory and spare parts: tracking of parts from the warehouse to the specific elevator, including stock control and usage monitoring.
+- Billing and finance: automated invoicing based on contracts or individual service interventions, payment tracking, and basic accounting.
+- Certifications and compliance: annual elevator certifications with expiration alerts.
+- Reports and KPIs: system availability, MTBF (Mean Time Between Failures), response times, and maintenance plan compliance.
 
 ## 6.2 Out of Scope
-Gestión de recursos humanos.
-Portal de clientes para autodiagnóstico.
+Human resources management.
+Client portal for self-assessment.
 
 ## 6.3 Future Scope
-- Incorporar un chatbot para atencion al cliente.
-- Incorporar un modelo de inteligencia artificial para el analisis de datos.
-- Integración con sistemas IoT predictivos 
+- Incorporate a chatbot for customer service.
+- Incorporate an artificial intelligence model for data analysis.
+- Integration with predictive IoT systems.
 
 ## 6.4 Project Constraints
-- Se asume disponibilidad de la normativa local aplicable (p. ej. intervalos de revisión) para configurar los planes.
-- Presupuesto y plazo fijos; los cambios de alcance se gestionan por control de cambios.
-- La app móvil debe funcionar en modo offline para zonas sin cobertura.
-
+- It is assumed that the applicable local regulations (e.g., inspection intervals) are available for configuring the plans.
+- Fixed budget and timeline; scope changes are managed through a change control process.
+- The mobile app must function in offline mode for areas without network coverage.
 ---
 
 # 7. Functional Requirements
 
 ## 7.1 Core Modules
-Módulos principales del software.
+The software platform is organized into functional modules
+representing the main business areas.
+
+### 7.1.1 Customer and Building Management
+Manage customer accounts, corporate buildings,
+contacts, service locations, and customer relationships.
+
+### 7.1.2 Equipment Management
+Maintain elevator records, technical specifications,
+equipment identification, components, and service history.
+
+### 7.1.3 Contract Management
+Manage maintenance contracts, contract validity,
+service coverage, obligations, and customer agreements.
+
+### 7.1.4 Work Order Management
+Create, assign, execute, track, and close work orders
+for preventive, corrective, and emergency maintenance.
+
+### 7.1.5 Maintenance Planning
+Schedule preventive maintenance activities,
+manage recurring tasks, and monitor compliance.
+
+### 7.1.6 Technician Management
+Manage technicians, qualifications, availability,
+assignments, and workload.
+
+### 7.1.7 Inventory Management
+Track spare parts, materials, consumption,
+and inventory movements.
+
+### 7.1.8 Reports and Documentation
+Generate technical reports, maintenance records,
+photographic evidence, and service documentation.
+
+### 7.1.9 Dashboard and Analytics
+Provide operational indicators and management reports.
+
+### 7.1.10 User and Access Management
+Manage user accounts, authentication,
+roles, permissions, and access restrictions.
 
 ## 7.2 Business Requirements
-- R5: Crear planes de mantenimiento preventivo.
-- R6: Crear un registro de equipos (ascensores, plataformas, etc) con detalle tecnico con una estructura enfocada en su mantenimiento ( sitemas, sub sistemas, componentes, etc).
-- R7: Crear y mantener un historial de mantenimiento.
-- R8: Registrar las emergencias reportadas por los clientes y su atencion.
-- R9: Registar la recepcion y conformidad de los trabajos por parte de los clientes.
+- R5: Create preventive maintenance plans.
+- R6: Create an equipment register (elevators, platforms, etc.) containing technical details, structured with a focus on maintenance (systems, subsystems, components, etc.).
+- R7: Create and maintain a maintenance history.
+- R8: Record emergencies reported by clients and the actions taken to address them.
+- R9: Record the receipt and formal acceptance of work by clients.
 
 ## 7.3 User Requirements
-- R1: Enviar ordenes de mantenimiento a los tecnicos de mantenimiento de la empresa de manera remota atravez de un dispositivo movil.
-- R2: Recoger evidencia de la ejecución de los trabajos realizados de los tecnicos en los equipos (ascensores, plataformas, etc).
-- R3: Simplificar la elaboracion de informes de trabajos de mantenimiento basado en la evidencia de los tecnicos de mantenimiento.
-- R4: Controlar el momento de ejecucion y la duracion de las ordenes de mantenimiento.
+- R1: Send maintenance orders to company maintenance technicians remotely via a mobile device.
+- R2: Collect evidence of the work performed by technicians on equipment (elevators, platforms, etc.).
+- R3: Streamline the preparation of maintenance work reports based on the evidence provided by the maintenance technicians.
+- R4: Monitor the timing and duration of maintenance order execution.
 
 ## 7.4 General Workflows
-Flujos operativos generales.
+
+### 7.4.1 Preventive Maintenance Workflow
+
+1. The system identifies maintenance activities
+   due according to the maintenance schedule.
+2. A preventive work order is generated.
+3. The supervisor reviews the work order.
+4. A technician is assigned.
+5. The technician receives the work order.
+6. The technician performs the maintenance.
+7. The technician completes the maintenance checklist.
+8. Findings, activities, and photographs are recorded.
+9. The technician submits the technical report.
+10. The work order is reviewed and closed.
+
+### 7.4.2 Corrective Maintenance Workflow
+
+1. A customer reports an elevator failure.
+2. The service request is registered.
+3. The request is classified according to urgency.
+4. A corrective work order is created.
+5. A technician is assigned.
+6. The technician performs fault diagnosis.
+7. The technician records findings and repair activities.
+8. If the repair cannot be completed, a follow-up
+   activity is scheduled.
+9. When the repair is completed, functional
+   verification is performed.
+10. The technical report is submitted.
+11. The work order is closed.
+
+### 7.4.3 Workflow Rules
+
+- Work orders must have a unique identifier.
+- Work orders must reference a building and elevator.
+- Work orders must record their assigned technician.
+- Work orders must preserve execution history.
+- Work orders requiring follow-up must remain traceable.
+- Closure must require the applicable technical records.
 
 ## 7.5 Reporting and Analytics
-- R10: Asignar un costo a cada orden de mantenimiento
-- R11: Desarrollar KPIs relacionados al area de operaciones.
-- R12: Desarrollar KPIs relacionados al area de servicio al cliente.
+- R10: Assign a cost to each maintenance order.
+- R11: Develop KPIs related to the operations area.
+- R12: Develop KPIs related to the customer service area.
 
 ---
 
@@ -226,57 +341,67 @@ Flujos operativos generales.
 # 9. Technical Environment
 
 ## 9.1 Deployment Model
-Infraestructura híbrida combinando servidor propio y datos en servidor en la nube.
+Hybrid infrastructure combining an on-premises server with data stored on a cloud server.
 
 ## 9.2 Infrastructure Constraints
-No hay restricciones de infraestructura.
+No infrastructure restrictions have been defined yet.
 
 ## 9.3 Devices
-Actualmente se usan telefonos celulares por parte de los tecnicos en campo para la recepcion de las ordenes de mantenimiento y recoger la evidencia y observaciones de los trabajos de mantenimiento.
-El personal administrativo tiene acceso a computadoras portatiles
+Field technicians currently use mobile phones to receive maintenance orders and to collect evidence and observations regarding maintenance work.
+Administrative staff have access to laptops.
 
 ## 9.4 Connectivity
-LAN, VPN, Internet y conectividad de campo.
+LAN, VPN, Internet, and field connectivity.
 
 ## 9.5 Existing Systems
-Actualmente se usan siguientes softwares:
-Office de Microsoft para la creacion de documentos y hojas de calculo.
-OfficeTrack para la gestión de las ordenes de mantenimiento y el envío de información a los técnicos en campo
+The following software is currently in use:
+- Microsoft Office for creating documents and spreadsheets.
+- OfficeTrack for managing maintenance work orders and sending information to field technicians.
 
 ---
 
 # 10. Data and Information
 
 ## 10.1 Business Entities
-Clientes, edificios, ascensores, contratos,técnicos, órdenes de trabajo, repuestos.
+- Clients
+- Buildings
+- Elevators
+- Contracts
+- Technicians
+- Work orders
+- Spare parts
 
 ## 10.2 Data Ownership
-Quién administra y controla la información.
+There is no person who centralizes and manages the information; each user keeps their documents on their own hard drives.
 
 ## 10.3 Data Lifecycle
-Creación, actualización, conservación y eliminación.
+An information life cycle has not been defined within the company.
 
 ## 10.4 Documents and Attachments
-Fotografías, informes, firmas y documentos.
-
+- Photographs
+- Reports
+- Digital Signatures
+- Documents
+- 
 ## 10.5 Data Migration
-Información existente que debe migrarse.
+Currently, the only active database belongs to the OfficeTrack software; it is hosted in the cloud and contains information on completed jobs as well as reports for clients.
 
 ---
 
 # 11. Regulatory and Safety Considerations
 
 ## 11.1 Applicable Regulations
-Regulaciones aplicables al negocio.
+Regulations applicable to the business.
+- UNE 58720 "Mantenimiento preventivo de ascensores" "This document was developed in Spain. 
 
 ## 11.2 Safety Requirements
-Seguridad del personal y procedimientos técnicos.
+Personnel safety and technical procedures.
 
 ## 11.3 Auditability
-Trazabilidad de operaciones y cambios.
+Traceability of operations and changes.
 
 ## 11.4 Data Privacy
-Protección de información de clientes y usuarios.
+Protection of customer and user information.
 
 ---
 
@@ -292,27 +417,68 @@ Protección de información de clientes y usuarios.
 # 13. Assumptions and Open Questions
 
 ## 13.1 Confirmed Facts
-Información validada.
+Validated information (under development).
 
 ## 13.2 Assumptions
-Suposiciones pendientes de confirmación.
+Assumptions awaiting confirmation (under development).
 
 ## 13.3 Open Questions
-Preguntas que requieren investigación o decisión.
+Questions requiring investigation or a decision (under development).
 
 ---
 
-# 14. Project Decisions
 
-## 14.1 Business Decisions
-## 14.2 Technical Decisions
-## 14.3 Decision Log
+## 14. Project Decisions
+
+### 14.1 Business Decisions
+
+| ID | Decision | Status | Date |
+|---|---|---|---|
+| BD-001 | The system will initially target elevator maintenance companies. | Approved | 2026-11-06 |
+| BD-002 | The initial customer segment will be corporate buildings. | Approved | 2026-11-06 |
+
+### 14.2 Technical Decisions
+
+| ID | Decision | Status | Date |
+|---|---|---|---|
+| TD-001 | Backend will use Go. | Approved | 2026-11-06|
+| TD-002 | Database will use PostgreSQL. | Approved | 2026-11-06 |
+| TD-003 | Mobile application will target Android. | Approved | 2026-11-06 |
+| TD-003 | Mobile application will be functional with and with out internet connection and preserve timestamp of activities  | Approved | 2026-11-06 |
+| TD-004 | Deployment will support customer-owned infrastructure. | Approved | 2026-11-06 |
+| TD-005 | Software will use Api Rest . | Approved | 2026-11-06 |
+
+### 14.3 Decision Log
+
+#### TD-001: Backend Technology
+
+- Status: Approved
+- Date: 2026-11-06
+- Decision: Go will be used for backend development.
+- Context: The project requires a maintainable backend  suitable for self-hosted deployment.
+- Rationale: Go provides efficient execution, straightforward deployment, and strong support for API development.
+- Consequences:
+  - Backend code will use Go.
+  - API services will follow Go conventions.
+  - Developers must maintain consistent coding standards.
+
+#### TD-002: Database Technology
+
+- Status: Approved
+- Date: 2026-11-06
+- Decision: PostgreSQL will be used as the primary database.
+- Context: The system requires relational data management  for customers, buildings, elevators, contracts,   technicians, and work orders.
+- Rationale: PostgreSQL provides relational integrity, transactional consistency, and extensibility.
+- Consequences:
+  - Database design will use PostgreSQL.
+  - SQL migrations will be maintained.
+  - Database-specific features must be documented.
 
 ---
 
 # 15. Glossary
 
-Terminología específica del negocio de ascensores.
+Terminology specific to the elevator business (under development).
 
 ---
 
