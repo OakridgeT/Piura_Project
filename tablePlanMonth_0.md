@@ -1,12 +1,6 @@
 # PULSE ELEVATORS - PROGRAMA DE MANTENIMIENTO - MES 0
 
 
-| Cliente / sede |    Equipo |    Fecha |    Técnico  |
-|----------------|-----------|----------|-------------|
-|  dato1  | dato2 | dato3 | dato4  |
-
-
-
 | CÓDIGO TAREA | CÓDIGO PADRE | ÍTEM PRINCIPAL | FORMA DE EJECUTAR | PUNTO A REVISAR | CHECK | OBSERVACIÓN |
 |--------------|--------------|----------------|-------------------|-----------------|-------|-------------|
 | **A. IDENTIFICACIÓN** | | | | | | |
