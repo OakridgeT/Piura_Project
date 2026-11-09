@@ -370,6 +370,17 @@
 | Q. CIERRE Y RESULTADOS | Q-04 | Estado final del ascensor | REG | Registrar | Q-04.01 | Estado: operativo / operativo con observaciones / no operativo. | | | | |  |  |
 | Q. CIERRE Y RESULTADOS | Q-04 | Estado final del ascensor | REG | Registrar | Q-04.02 | Fecha, hora y técnico responsable. | | | | |  |  |
 
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-01 | Lectura de voltajes - Lineas | REG | Registrar | R-01.01 | Lectura entre Lineas L1 - L2 (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-01 | Lectura de voltajes - Lineas | REG | Registrar | R-01.02 | Lectura entre Lineas L1 - L3 (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-01 | Lectura de voltajes - Lineas | REG | Registrar | R-01.03 | Lectura entre Lineas L2 - L3 (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-02 | Lectura de voltajes - Fase Tierra | REG | Registrar | R-02.01 | Lectura Fase tierra L1 - T (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-02 | Lectura de voltajes - Fase Tierra | REG | Registrar | R-02.02 | Lectura Fase tierra L2 - T (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-02 | Lectura de voltajes - Fase Tierra | REG | Registrar | R-02.03 | Lectura Fase tierra L3 - T (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-03 | Lectura de voltajes - Fase Neutro | REG | Registrar | R-03.01 | Lectura Fase Neutro L1 - N (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-03 | Lectura de voltajes - Fase Neutro | REG | Registrar | R-03.02 | Lectura Fase Neutro L2 - N (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-03 | Lectura de voltajes - Fase Neutro | REG | Registrar | R-03.03 | Lectura Fase Neutro L3 - N (V). | | | | |  |  |
+| R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-03 | Lectura de voltajes - Fase Neutro | REG | Registrar | R-03.04 | Lectura Fase Neutro N - T (V). | | | | |  |  |
+
 ## LEYENDA – TASK
 
 | Task_code | Task | N.° de Inspection_Points |
