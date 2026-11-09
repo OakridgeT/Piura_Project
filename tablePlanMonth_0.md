@@ -369,7 +369,6 @@
 | Q. CIERRE Y RESULTADOS | Q-03 | Registro de observaciones | REG | Registrar | Q-03.04 | Acción recomendada. | | | | |  |  |
 | Q. CIERRE Y RESULTADOS | Q-04 | Estado final del ascensor | REG | Registrar | Q-04.01 | Estado: operativo / operativo con observaciones / no operativo. | | | | |  |  |
 | Q. CIERRE Y RESULTADOS | Q-04 | Estado final del ascensor | REG | Registrar | Q-04.02 | Fecha, hora y técnico responsable. | | | | |  |  |
-
 | R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-01 | Lectura de voltajes - Lineas | REG | Registrar | R-01.01 | Lectura entre Lineas L1 - L2 (V). | | | | |  |  |
 | R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-01 | Lectura de voltajes - Lineas | REG | Registrar | R-01.02 | Lectura entre Lineas L1 - L3 (V). | | | | |  |  |
 | R. REGISTRO DE TENSIONES DE ALIMENTACIÓN | R-01 | Lectura de voltajes - Lineas | REG | Registrar | R-01.03 | Lectura entre Lineas L2 - L3 (V). | | | | |  |  |
