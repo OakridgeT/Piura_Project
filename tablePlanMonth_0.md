@@ -1,20 +1,20 @@
 # PULSE ELEVATORS - PROGRAMA DE MANTENIMIENTO - MES 0
 
 
-| Activity | Sub_Activity_code | Sub_Activity | Task_code | Task | Inspection_Point_code | Inspection_Point | Result | Evidence | Duration | Responsable | CHECK | OBSERVACIÓN |
+| Activity | Sub_Activity_code | Sub_Activity | Task_code | Task | Inspection_Point_code | Inspection_Point | Result | Evidence | Duration | Responsable | Check | Comentary |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.01 | Marca: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.02 | Modelo: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.03 | Capacidad nominal: ______ kg | | | | |  |  |
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.04 | Velocidad nominal: ______ m/s | | | | |  |  |
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.05 | N.° de paradas: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.06 | Año de instalacion: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.07 | Año de puesta en funcionamiento: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.01 | Tipo de maquina/accionamiento: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.02 | Sistema de suspension: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.03 | Tipo de freno: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.04 | Limitador de velocidad: ______ | | | | |  |  |
-| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.05 | Tipo de paracaidas: ______ | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.01 | Marca | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.02 | Modelo | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.03 | Capacidad nominal (kg) | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.04 | Velocidad nominal (m/s) | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.05 | N.° de paradas | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.06 | Año de instalacion | | | | |  |  |
+| A. IDENTIFICACIÓN | A-01 | Datos Del Equipo | REG | Registrar | A-01.07 | Año de puesta en funcionamiento  | | | | |  |  |
+| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.01 | Tipo de maquina/accionamiento  | | | | |  |  |
+| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.02 | Sistema de suspension  | | | | |  |  |
+| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.03 | Tipo de freno  | | | | |  |  |
+| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.04 | Limitador de velocidad  | | | | |  |  |
+| A. IDENTIFICACIÓN | A-02 | Caracteristicas Principales | REG | Registrar | A-02.05 | Tipo de paracaidas  | | | | |  |  |
 | A. IDENTIFICACIÓN | A-03 | Historial De Fallas / Alarmas Del Controlador | VER | Verificar | A-03.01 | Existencia de fallas o alarmas registradas en el controlador. | | | | |  |  |
 | A. IDENTIFICACIÓN | A-03 | Historial De Fallas / Alarmas Del Controlador | VER | Verificar | A-03.02 | Codigos o eventos activos. | | | | |  |  |
 | A. IDENTIFICACIÓN | A-03 | Historial De Fallas / Alarmas Del Controlador | VER | Verificar | A-03.03 | Fallas o eventos repetitivos. | | | | |  |  |
@@ -25,7 +25,7 @@
 | B. CONTROL Y ALIMENTACIÓN | B-02 | Condicion De Sala De Maquinas | VER | Verificar | B-02.02 | Piso y area de trabajo sin presencia de agua, aceite u otros residuos. | | | | |  |  |
 | B. CONTROL Y ALIMENTACIÓN | B-02 | Condicion De Sala De Maquinas | VER | Verificar | B-02.03 | Espacio suficiente y libre de obstaculos alrededor de los equipos. | | | | |  |  |
 | B. CONTROL Y ALIMENTACIÓN | B-03 | Iluminacion De Sala De Maquinas | COM | Comprobar | B-03.01 | Encendido y funcionamiento de las luminarias instaladas. | | | | |  |  |
-| B. CONTROL Y ALIMENTACIÓN | B-04 | Temperatura De Sala De Maquinas | MYR | Medir y Registrar | B-04.01 | Temperatura ambiente: °C | | | | |  |  |
+| B. CONTROL Y ALIMENTACIÓN | B-04 | Temperatura De Sala De Maquinas | MYR | Medir y Registrar | B-04.01 | Temperatura ambiente (°C) | | | | |  |  |
 | B. CONTROL Y ALIMENTACIÓN | B-05 | Ventilacion De Sala De Maquinas | COM | Comprobar | B-05.01 | Sistema de ventilacion operativo. | | | | |  |  |
 | B. CONTROL Y ALIMENTACIÓN | B-05 | Ventilacion De Sala De Maquinas | COM | Comprobar | B-05.02 | Ausencia de obstrucciones visibles en entradas/salidas de ventilacion. | | | | |  |  |
 | B. CONTROL Y ALIMENTACIÓN | B-05 | Ventilacion De Sala De Maquinas | REG | Registrar | B-05.03 | Ubicacion del gabinete de control: [ ] Interior / area cerrada [ ] Exterior / protegido de la intemperie [ ] Exterior / expuesto a la intemperie | | | | |  |  |
