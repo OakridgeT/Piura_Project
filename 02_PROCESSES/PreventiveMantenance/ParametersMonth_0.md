@@ -1,0 +1,107 @@
+PULSE  TRAZABILIDAD DE LOS 102 ÍTEMS DEL MES 0 
+Referencia de programación: inspecciones mensuales + mantenimiento por sistemas; los 102 ítems no se repiten íntegramente en cada visita. 
+
+| CÓDIGO MES 0   | ÍTEM PRINCIPAL                                                               | MES(ES) PREVISTO(S)        | REFERENCIA / VERIFICACIÓN   | ALCANCE                                      |
+|----------------|------------------------------------------------------------------------------|----------------------------|-----------------------------|----------------------------------------------|
+| A-01           | Datos Del Equipo                                                             | 01, 12                     | 01                          | Según alcance y procedimiento del fabricante |
+| A-02           | Caracteristicas Principales                                                  | 01, 12                     | 01                          | Según alcance y procedimiento del fabricante |
+| A-03           | Historial De Fallas / Alarmas Del Controlador                                | TODOS                      | 01, 12, RUTINA              | Según alcance y procedimiento del fabricante |
+| B-01           | Acceso A Sala De Maquinas                                                    | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-02           | Condicion De Sala De Maquinas                                                | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-03           | Iluminacion De Sala De Maquinas                                              | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-04           | Temperatura De Sala De Maquinas                                              | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-05           | Ventilacion De Sala De Maquinas                                              | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-06           | Acceso al gabinete y área de trabajo                                         | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-07           | Gabinete de control                                                          | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-08           | Proteccion Del Gabinete                                                      | 02, 04, 06, 08, 10, 12     | 02                          | Según alcance y procedimiento del fabricante |
+| B-09           | Tablero De Control                                                           | 02, 04, 06, 08, 10, 12     | 02, 04, 06, 08, 10, 12      | Según alcance y procedimiento del fabricante |
+| B-10           | Componentes Electricos                                                       | 02, 04, 06, 08, 10, 12     | 02, 04, 06, 08, 10, 12      | Según alcance y procedimiento del fabricante |
+| B-11           | Cableado                                                                     | 02, 04, 06, 08, 10, 12     | 02, 04, 06, 08, 10, 12      | Según alcance y procedimiento del fabricante |
+| B-12           | Identificacion                                                               | 02, 04, 06, 08, 10, 12     | 02, 08, 10, 12              | Según alcance y procedimiento del fabricante |
+| B-13           | Variador y sistema de refrigeración                                          | 02, 04, 06, 08, 10, 12     | 02, 04, 06, 08, 10, 12      | Según alcance y procedimiento del fabricante |
+| B-14           | Medición de voltajes de alimentación eléctrica                               | TODOS                      | 02, 04, 06, RUTINA          | Según alcance y procedimiento del fabricante |
+| C-01           | Máquina, motor y fugas de aceite                                             | 04, 06, 12                 | 04                          | Según alcance y procedimiento del fabricante |
+| C-02           | Encoder                                                                      | 04, 06, 12                 | 04                          | Según alcance y procedimiento del fabricante |
+| C-03           | Freno de máquina                                                             | 04, 06, 12                 | 04, 12                      | Según alcance y procedimiento del fabricante |
+| C-04           | Bobinas / Electroimanes Del Freno                                            | 04, 06, 12                 | 04, 12                      | Según alcance y procedimiento del fabricante |
+| C-05           | Monitoreo Del Freno                                                          | 04, 06, 12                 | 04, 12                      | Según alcance y procedimiento del fabricante |
+| C-06           | Freno Y Sistema De Rescate - Verificacion Previa                             | 04, 06, 12                 | 06, 12                      | Según alcance y procedimiento del fabricante |
+| C-07           | Freno Y Sistema De Rescate - Prueba Funcional                                | 04, 06, 12                 | 06, 12                      | Según alcance y procedimiento del fabricante |
+| C-08           | Rescatador automático de emergencia (ARD)                                    | 02, 06, 12                 | 02, 06, 12                  | Cuando exista / según tecnología             |
+| D-01           | STOP y botonera de inspección de techo de cabina                             | 10, 12                     | 10, 12                      | Según alcance y procedimiento del fabricante |
+| D-02           | Baranda de protección / corralito de techo de cabina y contacto de seguridad | 10, 12                     | 10, 12                      | Según alcance y procedimiento del fabricante |
+| D-03           | Puerta trampa y contactos de seguridad del techo de cabina                   | 10, 12                     | 10, 12                      | Según alcance y procedimiento del fabricante |
+| D-04           | Prueba de finales de carrera superior e inferior                             | 10, 12                     | 12                          | Según alcance y procedimiento del fabricante |
+| D-05           | Iluminación del ducto del ascensor                                           | 10, 12                     | 08, 10                      | Según alcance y procedimiento del fabricante |
+| E-01           | Contacto De Seguridad De Puerta De Piso                                      | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-02           | Enclavamiento / Trinco De Puerta De Piso                                     | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-03           | Cierre Automatico De Puerta De Piso                                          | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-04           | Funcionamiento Mecanico De Puerta De Piso                                    | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-05           | Desbloqueo de emergencia de puertas de piso                                  | 01, 03, 05, 07, 09, 11     | 01                          | Según alcance y procedimiento del fabricante |
+| E-06           | Ruedas De Suspension Y Excentricas                                           | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-07           | Guiadores / Patines Inferiores                                               | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-08           | Cables / Fajas / Elementos De Sincronizacion                                 | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 09, 11          | Según alcance y procedimiento del fabricante |
+| E-09           | Hojas, Marcos Y Pisaderas De Puerta De Piso                                  | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| E-10           | Botoneras, indicadores y señales de piso                                     | 01, 03, 05, 07, 09, 11     | 01, 09                      | Según alcance y procedimiento del fabricante |
+| F-01           | Contacto De Seguridad De Puerta De Cabina                                    | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| F-02           | Cortina De Luz / Fotocelula                                                  | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| F-03           | Operador de puerta de cabina                                                 | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| F-04           | Transmision Del Operador                                                     | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| F-05           | Hojas Y Pisadera De Puerta De Cabina                                         | 01, 03, 05, 07, 09, 11     | 01, 07, 09                  | Según alcance y procedimiento del fabricante |
+| F-06           | Funcionamiento De Puerta De Cabina                                           | 01, 03, 05, 07, 09, 11     | 01, 03, 07, 09, 11          | Según alcance y procedimiento del fabricante |
+| F-07           | Pinza o acoplador de puerta de cabina                                        | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| F-08           | Ruedas Y Excentricas De Puerta De Cabina                                     | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| F-09           | Guiadores / patines inferiores de puerta de cabina                           | 01, 03, 05, 07, 09, 11     | 01, 03, 05, 07, 09, 11      | Según alcance y procedimiento del fabricante |
+| G-01           | Cables de tracción                                                           | 05, 11                     | 05, 11                      | Según alcance y procedimiento del fabricante |
+| G-02           | Fajas de suspensión                                                          | 05, 11                     | 05, 11                      | Cuando exista / según tecnología             |
+| G-03           | Tensión de cables / fajas                                                    | 05, 11                     | 05, 11                      | Según alcance y procedimiento del fabricante |
+| G-04           | Terminales Y Fijaciones De Suspension                                        | 05, 11                     | 05, 11                      | Según alcance y procedimiento del fabricante |
+| G-05           | Poleas De Traccion Y Desvio                                                  | 05, 11                     | 05, 11                      | Según alcance y procedimiento del fabricante |
+| G-06           | Rodamientos / Ejes De Poleas                                                 | 05, 11                     | 05                          | Según alcance y procedimiento del fabricante |
+| H-01           | Limitador de velocidad de cabina                                             | 12                         | 12                          | Según alcance y procedimiento del fabricante |
+| H-02           | Cable del limitador de cabina                                                | 12                         | 12                          | Según alcance y procedimiento del fabricante |
+| H-03           | Paracaídas de cabina                                                         | 12                         | 12                          | Según alcance y procedimiento del fabricante |
+| H-04           | Limitador de velocidad de contrapeso                                         | 12                         | 12                          | Cuando exista / según tecnología             |
+| H-05           | Cable del limitador de contrapeso                                            | 12                         | 12                          | Cuando exista / según tecnología             |
+| H-06           | Paracaídas de contrapeso                                                     | 12                         | 12                          | Cuando exista / según tecnología             |
+| I-01           | Rieles de cabina                                                             | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-02           | Alineamiento de rieles de cabina                                             | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-03           | Rozaderas / guiadores de cabina                                              | 03, 07                     | 03, 07                      | Según alcance y procedimiento del fabricante |
+| I-04           | Lubricadores de rieles de cabina                                             | 03, 07                     | 03, 07                      | Según alcance y procedimiento del fabricante |
+| I-05           | Rieles de contrapeso                                                         | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-06           | Alineamiento de rieles de contrapeso                                         | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-07           | Rozaderas / guiadores de contrapeso                                          | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-08           | Lubricadores de rieles de contrapeso                                         | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-09           | Bastidor y pesas del contrapeso                                              | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| I-10           | Poleas de contrapeso                                                         | 03, 07                     | 07                          | Según alcance y procedimiento del fabricante |
+| J-01           | STOP del foso                                                                | 08, 10, 12                 | 08, 12                      | Según alcance y procedimiento del fabricante |
+| J-02           | Iluminación del foso                                                         | 08, 10, 12                 | 08, 10, 12                  | Según alcance y procedimiento del fabricante |
+| J-03           | Escalera de acceso al foso                                                   | 08, 10, 12                 | 08, 10                      | Según alcance y procedimiento del fabricante |
+| J-04           | Condiciones generales del foso                                               | 08, 10, 12                 | 08, 10                      | Según alcance y procedimiento del fabricante |
+| J-05           | Recolectores de aceite                                                       | 08, 10, 12                 | 08                          | Según alcance y procedimiento del fabricante |
+| J-06           | Alarma de emergencia debajo de cabina                                        | 08, 10, 12                 | 08                          | Según alcance y procedimiento del fabricante |
+| K-01           | Cadena / cable de compensación                                               | 08, 12                     | 08                          | Según alcance y procedimiento del fabricante |
+| K-02           | Posición del sistema de compensación                                         | 08, 12                     | 08                          | Según alcance y procedimiento del fabricante |
+| K-03           | Guiadores / rodillos de compensación                                         | 08, 12                     | 08                          | Según alcance y procedimiento del fabricante |
+| K-04           | Polea tensora de compensación de cabina                                      | 08, 12                     | 08, 12                      | Cuando exista / según tecnología             |
+| K-05           | Polea tensora de compensación de contrapeso                                  | 08, 12                     | 08, 12                      | Cuando exista / según tecnología             |
+| K-06           | Funcionamiento del sistema de compensación                                   | 08, 12                     | 08                          | Según alcance y procedimiento del fabricante |
+| L-01           | Polea tensora del limitador de cabina                                        | 10, 12                     | 10, 12                      | Según alcance y procedimiento del fabricante |
+| L-02           | Polea tensora del limitador de contrapeso                                    | 10, 12                     | 10, 12                      | Cuando exista / según tecnología             |
+| L-03           | Amortiguadores de cabina                                                     | 10, 12                     | 10, 12                      | Según alcance y procedimiento del fabricante |
+| L-04           | Amortiguadores de contrapeso                                                 | 10, 12                     | 10, 12                      | Según alcance y procedimiento del fabricante |
+| M-01           | Cable viajero                                                                | 08                         | 08                          | Según alcance y procedimiento del fabricante |
+| N-01           | Botonera de mando e indicadores de posición de cabina                        | 06, 09, 11, 12             | 09, 11, RUTINA              | Según alcance y procedimiento del fabricante |
+| N-02           | Sistema de alarma e intercomunicador de emergencia de cabina                 | 06, 09, 11, 12             | 06, 09, 12, RUTINA          | Según alcance y procedimiento del fabricante |
+| N-03           | Sistema de iluminación de emergencia de cabina                               | 06, 09, 11, 12             | 06, 12                      | Según alcance y procedimiento del fabricante |
+| N-04           | Sistema de pesacarga de cabina                                               | 06, 09, 11, 12             | 11                          | Según alcance y procedimiento del fabricante |
+| N-05           | Señalización de seguridad y elementos de accesibilidad de cabina             | 06, 09, 11, 12             | 09                          | Según alcance y procedimiento del fabricante |
+| O-01           | Acabados interiores de cabina                                                | 09                         | 09, RUTINA                  | Según alcance y procedimiento del fabricante |
+| O-02           | Techo interior, luminarias y ventilador                                      | 09                         | 09, RUTINA                  | Según alcance y procedimiento del fabricante |
+| O-03           | Acabados interiores de puerta                                                | 09                         | 09                          | Según alcance y procedimiento del fabricante |
+| P-01           | Nivelación de cabina por parada y sentido de llegada                         | 03, 11 / TODOS (funcional) | 03, 11, RUTINA              | Según alcance y procedimiento del fabricante |
+| P-02           | Funcionamiento durante el recorrido                                          | 03, 11 / TODOS (funcional) | 03, 11, RUTINA              | Según alcance y procedimiento del fabricante |
+| Q-01           | Restablecimiento de dispositivos de seguridad                                | TODOS / 12                 | 12, RUTINA                  | Según alcance y procedimiento del fabricante |
+| Q-02           | Prueba final de funcionamiento                                               | TODOS / 12                 | 12, RUTINA                  | Según alcance y procedimiento del fabricante |
+| Q-03           | Registro de observaciones                                                    | TODOS / 12                 | 01, 11, 12, RUTINA          | Según alcance y procedimiento del fabricante |
+| Q-04           | Estado final del ascensor                                                    | TODOS / 12                 | 12, RUTINA                  | Según alcance y procedimiento del fabricante |
